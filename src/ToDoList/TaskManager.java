@@ -23,6 +23,7 @@ public class TaskManager {
         }
     }
 
+
     public void markTaskAsDone(int id) {
         if (id < 0 || id >= tasks.size()) {
             System.out.println("Niepoprawne ID zadania! ");
